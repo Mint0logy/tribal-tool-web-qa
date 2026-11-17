@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "End-to-end test automation for Tribal Tool using Playwright and TypeScript. Focused on functional testing, regression coverage, and quality assurance.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mint0logy/tribal-tool-web-qa.git"
@@ -18,6 +20,8 @@
   "homepage": "https://github.com/Mint0logy/tribal-tool-web-qa#readme",
   "devDependencies": {
     "@playwright/test": "^1.65.1",
-    "@types/node": "^26.6.6"
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.10",
+    "typescript": "^7.0.2"
   }
 }
