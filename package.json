@@ -4,7 +4,8 @@
   "description": "End-to-end test automation for Tribal Tool using Playwright and TypeScript. Focused on functional testing, regression coverage, and quality assurance.",
   "main": "index.js",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "run-tests": "node scripts/run-tests.mjs"
   },
   "repository": {
     "type": "git",

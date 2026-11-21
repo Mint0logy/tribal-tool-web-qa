@@ -1,0 +1,7 @@
+{
+  "tests": [
+    "tests/smoke.spec.ts",
+    "tests/auth/login.spec.ts",
+    "tests/security/unauthenticated-access.spec.ts"
+  ]
+}
