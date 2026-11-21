@@ -1,11 +1,11 @@
 import {test as base, expect} from "@playwright/test"
 import { redactSecrets } from "./utils/redactSecrets"
 
-type TestLogger = {
+export type TestLogger = {
     log: (message: string) => void
 }
 
-type TestFixtures = {
+export type TestFixtures = {
     logger: TestLogger
 }
 
